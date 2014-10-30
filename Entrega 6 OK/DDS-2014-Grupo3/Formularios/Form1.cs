@@ -13,6 +13,7 @@ namespace DDS_2014_Grupo4.Clases.Pantallitas
 {
     public partial class FGenerarEquipos : Form
     {
+        Partido partido = null;
         public FGenerarEquipos()
         {
             InitializeComponent();
@@ -20,19 +21,20 @@ namespace DDS_2014_Grupo4.Clases.Pantallitas
 
         private void FGenerarEquipos_Load(object sender, EventArgs e)
         {
-            
             string ConnStr = @"Data Source=localhost\SQLSERVER2008;Initial Catalog=GD2C2014;User ID=gd;Password=gd2014;Trusted_Connection=False;";
 
             SqlConnection conn = new SqlConnection(ConnStr);
-            string sSel = string.Format("SELECT * FROM [GD2C2014].[dbo].[Jugador]");
+            string sSel = string.Format("SELECT * FROM [GD2C2014].[dbo].[Partido]");
 
 
             SqlCommand cmd = new SqlCommand(sSel, conn);
             conn.Open();
             SqlDataReader reader = cmd.ExecuteReader();
+            string IDFecha = "";
             while (reader.Read())
             {
-                checkedListBox1.Items.Add(reader["APODO"].ToString());
+                IDFecha = string.Format("{0} - {1}", reader["ID_Partido"].ToString(), reader["Fecha"].ToString());
+                comboBox1.Items.Add(IDFecha);
             }
             reader.Close();
             conn.Close(); 
@@ -55,7 +57,24 @@ namespace DDS_2014_Grupo4.Clases.Pantallitas
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            if (comboBox1.SelectedItem == null)
+            {
+                MessageBox.Show("Debe seleccionar partido");
+                return;
+            }
+            if (listBox1.SelectedItem == null)
+            {
+                MessageBox.Show("Debe seleccionar criterio de seleccion");
+                return;
+            }
+            if (listBox2.SelectedItem == null)
+            {
+                MessageBox.Show("Debe seleccionar criterio de ordenamiento");
+                return;
+            }
+            LogicaNegocio.GenerarEquipo f = new LogicaNegocio.GenerarEquipo();
+            partido = f.generar(comboBox1.Text,listBox1.SelectedIndex,listBox2.SelectedIndex);
+            new Form2(partido).Show();
         }
 
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)

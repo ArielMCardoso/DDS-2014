@@ -21,4 +21,9 @@ public class OrdenPromedioUltimosNPartidos : CriterioOrden
     {
         return _jugador.promedioUltimosPartidos(cantPartidos);
         }
+
+    public OrdenPromedioUltimosNPartidos(int nPartidos)
+    {
+        cantPartidos = nPartidos;
+    }
 }

@@ -53,10 +53,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="..\..\4ta Entrega Final Posta V1.0\UnitTest1.cs">
-      <Link>UnitTest1.cs</Link>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitTest1.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DDS-2014-Grupo3\DDS-2014-Grupo3.csproj">

@@ -10,8 +10,15 @@ using Microsoft.VisualStudio.QualityTools.UnitTestFramework;
  * @created 16-Ago-2014 12:40:49 p.m.
  */
 public class OrdenMix : CriterioOrden
-{
+   
+    {
+     
     OrdenHandicap handy=new OrdenHandicap();
+    OrdenPromedioUltimosNPartidos promeN;
+    public OrdenMix(int nPartidos)
+    {
+        promeN = new OrdenPromedioUltimosNPartidos(nPartidos);
+    }
     public OrdenHandicap handicap {
         get { return handy; }
         set { handy = value; }
@@ -22,7 +29,7 @@ public class OrdenMix : CriterioOrden
         get { return prome; }
         set { prome = value; }
     }
-    OrdenPromedioUltimosNPartidos promeN = new OrdenPromedioUltimosNPartidos();
+    
     public OrdenPromedioUltimosNPartidos promedioNPartidos
     {
         get { return promeN; }

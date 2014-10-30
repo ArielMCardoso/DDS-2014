@@ -56,12 +56,6 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Items.AddRange(new object[] {
-            "Jugador 1",
-            "Jugador 2",
-            "Jugador 3",
-            "Jugador 4",
-            "Jugador 5"});
             this.listBox1.Location = new System.Drawing.Point(30, 59);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(69, 95);
@@ -70,12 +64,6 @@
             // listBox2
             // 
             this.listBox2.FormattingEnabled = true;
-            this.listBox2.Items.AddRange(new object[] {
-            "Jugador 1",
-            "Jugador 2",
-            "Jugador 3",
-            "Jugador 4",
-            "Jugador 5"});
             this.listBox2.Location = new System.Drawing.Point(158, 59);
             this.listBox2.Name = "listBox2";
             this.listBox2.Size = new System.Drawing.Size(67, 95);
@@ -89,6 +77,7 @@
             this.button1.TabIndex = 4;
             this.button1.Text = "Cerrar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form2
             // 
@@ -102,6 +91,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form2";
             this.Text = "Resultado de equipos generados";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

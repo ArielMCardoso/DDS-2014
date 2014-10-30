@@ -444,7 +444,7 @@ namespace UnitTestProject1
                 calificarMuchos(_players, partidos[i]);
             }
             anotarseAPartido(_players, partido);
-            OrdenPromedioUltimosNPartidos _criterio = new OrdenPromedioUltimosNPartidos();
+            OrdenPromedioUltimosNPartidos _criterio = new OrdenPromedioUltimosNPartidos(3);
             _criterio.cantPartidos = 3;
             List<Jugador> _playersOrdenados = admin.ordenarJugadores(partido, _criterio);
             CollectionAssert.AreEqual(_playersOrdenados, _players);
@@ -462,7 +462,7 @@ namespace UnitTestProject1
                 calificarMuchos(_players, partidos[i]);
             }
             anotarseAPartido(_players, partido);
-            OrdenMix _criterio = new OrdenMix();
+            OrdenMix _criterio = new OrdenMix(3);
             _criterio.promedioNPartidos.cantPartidos = 3;
             List<Jugador> _playersOrdenados = admin.ordenarJugadores(partido, _criterio);
             CollectionAssert.AreEqual(_playersOrdenados, _players);
