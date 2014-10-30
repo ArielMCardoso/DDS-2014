@@ -16,7 +16,7 @@ namespace DDS_2014_Grupo4
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DDS_2014_Grupo4.Form1());
+            Application.Run(new Formularios.FormularioPrincipal());
         }
     }
 }
