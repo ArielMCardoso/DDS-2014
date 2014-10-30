@@ -1,3 +1,0 @@
-C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\DDS-2014-Grupo4\DDS-2014-Grupo4\obj\Release\ResolveAssemblyReference.cache
-C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\DDS-2014-Grupo4\DDS-2014-Grupo4\obj\Release\DDS_2014_Grupo4.Properties.Resources.resources
-C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\DDS-2014-Grupo4\DDS-2014-Grupo4\obj\Release\DDS-2014-Grupo4.csproj.GenerateResource.Cache
