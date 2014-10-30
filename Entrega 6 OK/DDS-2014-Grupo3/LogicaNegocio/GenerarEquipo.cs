@@ -36,7 +36,7 @@ namespace DDS_2014_Grupo4.LogicaNegocio
                     case 2:
                         inscripcion = new Solidaria();
                         break;
-                    case 3:
+                    default:
                         inscripcion = new Condicional();
                         break;
                 }
@@ -58,12 +58,12 @@ namespace DDS_2014_Grupo4.LogicaNegocio
                 case 2:
                     criterio = new OrdenPromedioUltimosNPartidos(5);
                     break;
-                case 3  :
+                case 3:
                     criterio = new OrdenMix(5);
                     break;
             }
             CriterioDivision division = null;
-            switch (orden)
+            switch (seleccion)
             {
                 case 0:
                     division = new DivisionParidad();

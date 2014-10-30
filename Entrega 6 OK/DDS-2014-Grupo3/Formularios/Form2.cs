@@ -22,11 +22,11 @@ namespace DDS_2014_Grupo4.Clases.Pantallitas
             partido = part;
             for (int i = 0; i < partido.m_Equipo[0]._jugadores.Count; i++)
             {
-                listBox1.Items.Add(partido.m_Equipo[0]._jugadores[i]);
+                listBox1.Items.Add(partido.m_Equipo[0]._jugadores[i]._nombre);
             }
             for (int i = 0; i < partido.m_Equipo[1]._jugadores.Count; i++)
             {
-                listBox2.Items.Add(partido.m_Equipo[1]._jugadores[i]);
+                listBox2.Items.Add(partido.m_Equipo[1]._jugadores[i]._nombre);
             }
         }
 
