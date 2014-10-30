@@ -100,60 +100,60 @@
     <Compile Include="Clases\Partido.cs" />
     <Compile Include="Clases\Program.cs" />
     <Compile Include="Clases\CriteriosOrden\CriteriosOrden.cs" />
-    <Compile Include="Formularios\FormularioPrincipal.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\FormularioPrincipal.Designer.cs">
-      <DependentUpon>FormularioPrincipal.cs</DependentUpon>
+    <Compile Include="Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\GenerarEquipos.cs">
+    <Compile Include="Formularios\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\GenerarEquipos.Designer.cs">
-      <DependentUpon>GenerarEquipos.cs</DependentUpon>
+    <Compile Include="Formularios\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\ResultadoDeEquipos.cs">
+    <Compile Include="Formularios\Form2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\ResultadoDeEquipos.Designer.cs">
-      <DependentUpon>ResultadoDeEquipos.cs</DependentUpon>
+    <Compile Include="Formularios\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\BusquedaDeJugadores.cs">
+    <Compile Include="Formularios\Form3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\BusquedaDeJugadores.Designer.cs">
-      <DependentUpon>BusquedaDeJugadores.cs</DependentUpon>
+    <Compile Include="Formularios\Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\ResultadoBusquedaJugadores.cs">
+    <Compile Include="Formularios\Form4.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\ResultadoBusquedaJugadores.Designer.cs">
-      <DependentUpon>ResultadoBusquedaJugadores.cs</DependentUpon>
+    <Compile Include="Formularios\Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\ResultadoDetalladoJugador.cs">
+    <Compile Include="Formularios\Form5.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\ResultadoDetalladoJugador.Designer.cs">
-      <DependentUpon>ResultadoDetalladoJugador.cs</DependentUpon>
+    <Compile Include="Formularios\Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Formularios\FormularioPrincipal.resx">
-      <DependentUpon>FormularioPrincipal.cs</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\GenerarEquipos.resx">
-      <DependentUpon>GenerarEquipos.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\ResultadoDeEquipos.resx">
-      <DependentUpon>ResultadoDeEquipos.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\BusquedaDeJugadores.resx">
-      <DependentUpon>BusquedaDeJugadores.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\ResultadoBusquedaJugadores.resx">
-      <DependentUpon>ResultadoBusquedaJugadores.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\ResultadoDetalladoJugador.resx">
-      <DependentUpon>ResultadoDetalladoJugador.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
