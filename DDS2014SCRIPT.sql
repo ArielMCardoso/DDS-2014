@@ -1,3 +1,4 @@
+--Script de generación  y carga de tablas
 CREATE TABLE Persona ( 	
 	ID_Persona numeric(18) NOT NULL PRIMARY KEY IDENTITY (1, 1),
 	DNI numeric(18) NOT NULL,
@@ -133,6 +134,7 @@ INSERT INTO Estado(Nombre) VALUES ('Confirmado');
 INSERT INTO Estado(Nombre) VALUES ('Jugando');
 INSERT INTO Estado(Nombre) VALUES ('Jugado');
 INSERT INTO Estado(Nombre) VALUES ('Super Confirmado');
+INSERT INTO Estado(Nombre) VALUES ('Cancelado');
 
 select * from Estado
 
@@ -140,10 +142,10 @@ select * from Estado
 INSERT INTO Tipo_Inscripcion(Descripcion) VALUES ('Estandar');
 INSERT INTO Tipo_Inscripcion(Descripcion) VALUES ('Solidaria');
 INSERT INTO Tipo_Inscripcion(Descripcion,Condicion) VALUES ('Condicional','Que haga mas de 25ºC');
+INSERT INTO Tipo_Inscripcion(Descripcion,Condicion) VALUES ('Condicional','Que no llueva');
+INSERT INTO Tipo_Inscripcion(Descripcion,Condicion) VALUES ('Condicional','Que sea de día');
 
 select * from Tipo_Inscripcion
-
-GO
 
 --Personas:
 INSERT INTO Persona(Nombre,Apellido,DNI,Mail) VALUES ('Brian','Leder',36000000,'doctorbleder@gmail.com');
@@ -195,7 +197,6 @@ INSERT INTO Jugador(ID_Persona,Fecha_Nacimiento,Direccion,Telefono,Handicap,Apod
 INSERT INTO Jugador(ID_Persona,Fecha_Nacimiento,Direccion,Telefono,Handicap,Apodo) VALUES (24,CONVERT(datetime,'1980-06-07',111),'Bilinghust 6578','4512-9834',9,'Topo');
 INSERT INTO Jugador(ID_Persona,Fecha_Nacimiento,Direccion,Telefono,Handicap,Apodo) VALUES (25,CONVERT(datetime,'1981-06-07',111),'Gavilan 3248','4562-3498',2,'Pitu');																
 								
-
 select j.ID_Jugador, p.Nombre, p.Apellido, p.DNI, j.Fecha_Nacimiento, j.Direccion,j.Telefono,j.Handicap, p.Mail, j.Apodo
 from Jugador j join Persona p on (p.ID_Persona=j.ID_Persona)
 
@@ -236,7 +237,6 @@ INSERT INTO Partido(Fecha,ID_Division,ID_Orden,ID_Equipo1,ID_Equipo2,ID_Administ
 INSERT INTO Partido(Fecha,ID_Division,ID_Orden,ID_Equipo1,ID_Equipo2,ID_Administrador,ID_Estado) VALUES (CONVERT(datetime,'2014-11-11',111),2,2,5,6,1,5);
 
 select * from Partido
-
 
 --Calificaciones
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (1,1,2,6,'Nada');
@@ -349,7 +349,6 @@ INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,5,4,4,'Nada');
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,5,13,5,'Nada');
 
-
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,7,5,10,'Nada');
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,7,8,9,'Nada');
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,7,9,1,'Nada');
@@ -359,7 +358,6 @@ INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,7,3,4,'Nada');
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,7,4,8,'Nada');
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,7,13,2,'Nada');
-
 
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,8,7,8,'Nada');
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,8,5,4,'Nada');
@@ -371,7 +369,6 @@ INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,8,4,9,'Nada');
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,8,13,2,'Nada');
 
-
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,9,7,1,'Nada');
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,9,8,9,'Nada');
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,9,5,4,'Nada');
@@ -381,7 +378,6 @@ INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,9,3,10,'Nada');
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,9,4,6,'Nada');
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,9,13,9,'Nada');
-
 
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,12,7,3,'Nada');
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,12,8,8,'Nada');
@@ -393,7 +389,6 @@ INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,12,4,10,'Nada');
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,12,13,5,'Nada');
 
-
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,10,7,8,'Nada');
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,10,8,10,'Nada');
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,10,9,9,'Nada');
@@ -403,7 +398,6 @@ INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,10,3,10,'Nada');
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,10,4,4,'Nada');
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,10,13,4,'Nada');
-
 
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,2,7,2,'Nada');
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,2,8,5,'Nada');
@@ -415,7 +409,6 @@ INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,2,4,7,'Nada');
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,2,13,8,'Nada');
 
-
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,3,7,8,'Nada');
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,3,8,2,'Nada');
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,3,9,4,'Nada');
@@ -426,7 +419,6 @@ INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,3,4,4,'Nada');
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,3,13,5,'Nada');
 
-
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,4,7,3,'Nada');
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,4,8,10,'Nada');
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,4,9,7,'Nada');
@@ -436,7 +428,6 @@ INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,4,3,10,'Nada');
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,4,5,4,'Nada');
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,4,13,4,'Nada');
-
 
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,13,7,7,'Nada');
 INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica) VALUES (2,13,8,5,'Nada');
@@ -451,31 +442,142 @@ INSERT INTO Calificacion(ID_Partido,ID_Calificador,ID_Calificado,Puntaje,Critica
 select * from Calificacion c
 order by 	c.ID_Partido, c.ID_Calificado, c.ID_Calificador,c.Puntaje
 
+--Penalizaciones
 INSERT INTO Penalizacion(Descripcion,Fecha,Dias_Duracion,ID_Jugador) VALUES ('Por golpear al arbitro',CONVERT(datetime,'2014-10-31',111),7,13);
 INSERT INTO Penalizacion(Descripcion,Fecha,Dias_Duracion,ID_Jugador) VALUES ('Por bajarle los pantalones a un compañero',CONVERT(datetime,'2014-10-31',111),10,3);
 INSERT INTO Penalizacion(Descripcion,Fecha,Dias_Duracion,ID_Jugador) VALUES ('Por decir groserías',CONVERT(datetime,'2014-10-31',111),10,4);
 
 select * from Penalizacion	
 
+--Inscripciones
+INSERT INTO Inscripcion(ID_Partido,ID_Jugador,ID_Tipo_Inscripcion,ID_Estado) VALUES (1,1,2,4);
+INSERT INTO Inscripcion(ID_Partido,ID_Jugador,ID_Tipo_Inscripcion,ID_Estado) VALUES (1,2,3,4);
+INSERT INTO Inscripcion(ID_Partido,ID_Jugador,ID_Tipo_Inscripcion,ID_Estado) VALUES (1,3,3,4);
+INSERT INTO Inscripcion(ID_Partido,ID_Jugador,ID_Tipo_Inscripcion,ID_Estado) VALUES (1,4,1,4);
+INSERT INTO Inscripcion(ID_Partido,ID_Jugador,ID_Tipo_Inscripcion,ID_Estado) VALUES (1,5,2,4);
+INSERT INTO Inscripcion(ID_Partido,ID_Jugador,ID_Tipo_Inscripcion,ID_Estado) VALUES (1,6,3,4);
+INSERT INTO Inscripcion(ID_Partido,ID_Jugador,ID_Tipo_Inscripcion,ID_Estado) VALUES (1,7,1,4);
+INSERT INTO Inscripcion(ID_Partido,ID_Jugador,ID_Tipo_Inscripcion,ID_Estado) VALUES (1,8,2,4);
+INSERT INTO Inscripcion(ID_Partido,ID_Jugador,ID_Tipo_Inscripcion,ID_Estado) VALUES (1,9,1,4);
+INSERT INTO Inscripcion(ID_Partido,ID_Jugador,ID_Tipo_Inscripcion,ID_Estado) VALUES (1,10,1,4);
+
+INSERT INTO Inscripcion(ID_Partido,ID_Jugador,ID_Tipo_Inscripcion,ID_Estado) VALUES (2,5,1,4);
+INSERT INTO Inscripcion(ID_Partido,ID_Jugador,ID_Tipo_Inscripcion,ID_Estado) VALUES (2,7,3,4);
+INSERT INTO Inscripcion(ID_Partido,ID_Jugador,ID_Tipo_Inscripcion,ID_Estado) VALUES (2,8,3,4);
+INSERT INTO Inscripcion(ID_Partido,ID_Jugador,ID_Tipo_Inscripcion,ID_Estado) VALUES (2,9,1,4);
+INSERT INTO Inscripcion(ID_Partido,ID_Jugador,ID_Tipo_Inscripcion,ID_Estado) VALUES (2,12,2,4);
+INSERT INTO Inscripcion(ID_Partido,ID_Jugador,ID_Tipo_Inscripcion,ID_Estado) VALUES (2,10,3,4);
+INSERT INTO Inscripcion(ID_Partido,ID_Jugador,ID_Tipo_Inscripcion,ID_Estado) VALUES (2,2,1,4);
+INSERT INTO Inscripcion(ID_Partido,ID_Jugador,ID_Tipo_Inscripcion,ID_Estado) VALUES (2,3,2,4);
+INSERT INTO Inscripcion(ID_Partido,ID_Jugador,ID_Tipo_Inscripcion,ID_Estado) VALUES (2,4,1,4);
+INSERT INTO Inscripcion(ID_Partido,ID_Jugador,ID_Tipo_Inscripcion,ID_Estado) VALUES (2,13,1,4);
+
+INSERT INTO Inscripcion(ID_Partido,ID_Jugador,ID_Tipo_Inscripcion,ID_Estado) VALUES (3,1,2,1);
+INSERT INTO Inscripcion(ID_Partido,ID_Jugador,ID_Tipo_Inscripcion,ID_Estado) VALUES (3,2,4,1);
+INSERT INTO Inscripcion(ID_Partido,ID_Jugador,ID_Tipo_Inscripcion,ID_Estado) VALUES (3,3,1,1);
+INSERT INTO Inscripcion(ID_Partido,ID_Jugador,ID_Tipo_Inscripcion,ID_Estado) VALUES (3,4,1,1);
+INSERT INTO Inscripcion(ID_Partido,ID_Jugador,ID_Tipo_Inscripcion,ID_Estado) VALUES (3,5,5,1);
+
+SELECT * FROM Inscripcion
+
 GO
 
+--Vistas y Stored Procedures
+--a
+create view jugadoresMalos
+as
+select j.ID_Jugador,p.Nombre, p.Apellido, j.Handicap
+from Jugador j, Persona p
+where p.ID_Persona=j.ID_Persona and
+j.Handicap<5
+
+--b
+create view jugadoresTraicioneros
+as
+select p.Nombre, p.Apellido
+from Jugador j, Persona p
+where p.ID_Persona=j.ID_Persona and
+3<(select COUNT(pen.ID_Penalizacion) from Penalizacion pen where(j.ID_Jugador=pen.ID_Jugador and MONTH(pen.Fecha)=MONTH(GETDATE())-1))
+
+--c
+create view jugadoresQuePuedenMejorar
+as
+select distinct jug.ID_Jugador, j.Nombre, j.Apellido, year(getdate())+1-year(jug.Fecha_Nacimiento) AS 'Edad'
+from jugadoresMalos j join Jugador jug on (jug.ID_Jugador=j.ID_Jugador)
+where year(getdate())+1-year(jug.Fecha_Nacimiento)<25
+
+--d
+create view jugaresBajados
+as
+select i.ID_Jugador, p.Nombre,p.Apellido, i.ID_Partido
+from Inscripcion i, Jugador j, Persona p
+where i.ID_Estado=6 and
+j.ID_Jugador=i.ID_Jugador and
+j.ID_Persona=p.ID_Persona
+
+--e
+CREATE PROCEDURE darDeBajaInscripcion
+@id_partido numeric(18,0),
+@id_jugador numeric(18,0),
+@id_reemplazo numeric(18,0)
+AS 
+declare @id_inscripcion numeric(18,0),@id_tipo_inscripcion numeric(18,0),@id_estado numeric(18,0)
+select @id_inscripcion= i.ID_Inscripcion,@id_tipo_inscripcion=i.ID_Tipo_Inscripcion,@id_estado=i.ID_Estado
+from Inscripcion i
+where @id_partido=i.ID_Partido and
+@id_jugador=i.ID_Jugador
+if(@id_reemplazo is NULL)
+begin
+update Inscripcion set ID_Estado=6 where ID_Inscripcion=@id_inscripcion
+insert into Penalizacion (Descripcion,Dias_Duracion,Fecha,ID_Jugador) values ('Por no ofrecer reemplazo',14,GETDATE(),@id_partido);
+update Partido set ID_Estado=1 where @id_partido=ID_Partido
+end
+else
+begin
+update Inscripcion set ID_Estado=6 where ID_Inscripcion=@id_inscripcion
+insert into Inscripcion (ID_Estado,ID_Jugador,ID_Partido,ID_Tipo_Inscripcion) values (@id_estado,@id_reemplazo,@id_partido,@id_tipo_inscripcion);
+end
+
+--para probar la consulta c
+insert into Penalizacion (Descripcion,Dias_Duracion,Fecha,ID_Jugador) values ('Jo',100,CONVERT(datetime,'2014-10-30',111),2);
+insert into Penalizacion (Descripcion,Dias_Duracion,Fecha,ID_Jugador) values ('Jo',100,CONVERT(datetime,'2014-10-30',111),2);
+insert into Penalizacion (Descripcion,Dias_Duracion,Fecha,ID_Jugador) values ('Jo',100,CONVERT(datetime,'2014-10-30',111),2);
+insert into Penalizacion (Descripcion,Dias_Duracion,Fecha,ID_Jugador) values ('Jo',100,CONVERT(datetime,'2014-10-30',111),2);
+insert into Penalizacion (Descripcion,Dias_Duracion,Fecha,ID_Jugador) values ('Jo',100,CONVERT(datetime,'2014-10-30',111),2);
+
+insert into Penalizacion (Descripcion,Dias_Duracion,Fecha,ID_Jugador) values ('Jo',100,CONVERT(datetime,'2014-10-30',111),5);
+insert into Penalizacion (Descripcion,Dias_Duracion,Fecha,ID_Jugador) values ('Jo',100,CONVERT(datetime,'2014-10-30',111),5);
+insert into Penalizacion (Descripcion,Dias_Duracion,Fecha,ID_Jugador) values ('Jo',100,CONVERT(datetime,'2014-10-30',111),5);
+
+insert into Penalizacion (Descripcion,Dias_Duracion,Fecha,ID_Jugador) values ('Jo',100,CONVERT(datetime,'2014-10-30',111),4);
+insert into Penalizacion (Descripcion,Dias_Duracion,Fecha,ID_Jugador) values ('Jo',100,CONVERT(datetime,'2014-10-30',111),4);
+insert into Penalizacion (Descripcion,Dias_Duracion,Fecha,ID_Jugador) values ('Jo',100,CONVERT(datetime,'2014-10-30',111),4);
+insert into Penalizacion (Descripcion,Dias_Duracion,Fecha,ID_Jugador) values ('Jo',100,CONVERT(datetime,'2014-10-30',111),4);
+insert into Penalizacion (Descripcion,Dias_Duracion,Fecha,ID_Jugador) values ('Jo',100,CONVERT(datetime,'2014-10-30',111),4);
+
+--para probar la consulta d
+insert into Inscripcion (ID_Estado,ID_Jugador,ID_Partido,ID_Tipo_Inscripcion) values(6,2,1,1);
+insert into Inscripcion (ID_Estado,ID_Jugador,ID_Partido,ID_Tipo_Inscripcion) values(6,4,1,1);
+insert into Inscripcion (ID_Estado,ID_Jugador,ID_Partido,ID_Tipo_Inscripcion) values(6,5,1,1);
+insert into Inscripcion (ID_Estado,ID_Jugador,ID_Partido,ID_Tipo_Inscripcion) values(6,2,2,1);
+
+--para probar la consulta e
+exec darDeBajaInscripcion 1,2,NULL
+exec darDeBajaInscripcion 1,3,12
 
 
-
-
-
-
-DROP TABLE Partido;	
-DROP TABLE Jugador;
-DROP TABLE Equipo;
-DROP TABLE Estado;
-DROP TABLE Administrador;
-DROP TABLE Criterio_Orden;	
-DROP TABLE Criterio_Division;
-DROP TABLE Tipo_Inscripcion;
-DROP TABLE Persona;
-DROP TABLE Amigo;
-DROP TABLE Penalizacion;
-DROP TABLE Calificacion;	
-DROP TABLE Inscripcion;
-GO
+--Para borrar todas las tablas
+--DROP TABLE Partido;	
+--DROP TABLE Jugador;
+--DROP TABLE Equipo;
+--DROP TABLE Estado;
+--DROP TABLE Administrador;
+--DROP TABLE Criterio_Orden;	
+--DROP TABLE Criterio_Division;
+--DROP TABLE Tipo_Inscripcion;
+--DROP TABLE Persona;
+--DROP TABLE Amigo;
+--DROP TABLE Penalizacion;
+--DROP TABLE Calificacion;	
+--DROP TABLE Inscripcion;
+--GO
