@@ -1,0 +1,51 @@
+C:\Users\Usuario\Desktop\DDS 2014\4ta Entrega\DDS-2014-Grupo4\bin\Debug\DDS-2014-Grupo4.exe
+C:\Users\Usuario\Desktop\DDS 2014\4ta Entrega\DDS-2014-Grupo4\bin\Debug\DDS-2014-Grupo4.pdb
+C:\Users\Usuario\Desktop\DDS 2014\4ta Entrega\DDS-2014-Grupo4\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Usuario\Desktop\DDS 2014\4ta Entrega\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo3.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\DDS 2014\4ta Entrega\DDS-2014-Grupo4\obj\Debug\DDS_2014_Grupo4.Properties.Resources.resources
+C:\Users\Usuario\Desktop\DDS 2014\4ta Entrega\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo3.csproj.GenerateResource.Cache
+C:\Users\Usuario\Desktop\DDS 2014\4ta Entrega\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.exe
+C:\Users\Usuario\Desktop\DDS 2014\4ta Entrega\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.pdb
+C:\Users\Usuario\Desktop\DDS 2014\Entrega 4 final ok Posta v1.0 Posta posta\4ta Entrega Final Posta V1.0\DDS-2014-Grupo3\bin\Debug\DDS-2014-Grupo4.exe
+C:\Users\Usuario\Desktop\DDS 2014\Entrega 4 final ok Posta v1.0 Posta posta\4ta Entrega Final Posta V1.0\DDS-2014-Grupo3\bin\Debug\DDS-2014-Grupo4.pdb
+C:\Users\Usuario\Desktop\DDS 2014\Entrega 4 final ok Posta v1.0 Posta posta\4ta Entrega Final Posta V1.0\DDS-2014-Grupo3\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Usuario\Desktop\DDS 2014\Entrega 4 final ok Posta v1.0 Posta posta\4ta Entrega Final Posta V1.0\DDS-2014-Grupo3\obj\Debug\DDS-2014-Grupo3.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\DDS 2014\Entrega 4 final ok Posta v1.0 Posta posta\4ta Entrega Final Posta V1.0\DDS-2014-Grupo3\obj\Debug\DDS_2014_Grupo4.Formularios.FormularioPrincipal.resources
+C:\Users\Usuario\Desktop\DDS 2014\Entrega 4 final ok Posta v1.0 Posta posta\4ta Entrega Final Posta V1.0\DDS-2014-Grupo3\obj\Debug\DDS_2014_Grupo4.Formularios.GenerarEquipos.resources
+C:\Users\Usuario\Desktop\DDS 2014\Entrega 4 final ok Posta v1.0 Posta posta\4ta Entrega Final Posta V1.0\DDS-2014-Grupo3\obj\Debug\DDS_2014_Grupo4.Formularios.ResultadoDeEquipos.resources
+C:\Users\Usuario\Desktop\DDS 2014\Entrega 4 final ok Posta v1.0 Posta posta\4ta Entrega Final Posta V1.0\DDS-2014-Grupo3\obj\Debug\DDS_2014_Grupo4.Formularios.BusquedaDeJugadores.resources
+C:\Users\Usuario\Desktop\DDS 2014\Entrega 4 final ok Posta v1.0 Posta posta\4ta Entrega Final Posta V1.0\DDS-2014-Grupo3\obj\Debug\DDS_2014_Grupo4.Formularios.ResultadoBusquedaJugadores.resources
+C:\Users\Usuario\Desktop\DDS 2014\Entrega 4 final ok Posta v1.0 Posta posta\4ta Entrega Final Posta V1.0\DDS-2014-Grupo3\obj\Debug\DDS_2014_Grupo4.Formularios.ResultadoDetalladoJugador.resources
+C:\Users\Usuario\Desktop\DDS 2014\Entrega 4 final ok Posta v1.0 Posta posta\4ta Entrega Final Posta V1.0\DDS-2014-Grupo3\obj\Debug\DDS_2014_Grupo4.Properties.Resources.resources
+C:\Users\Usuario\Desktop\DDS 2014\Entrega 4 final ok Posta v1.0 Posta posta\4ta Entrega Final Posta V1.0\DDS-2014-Grupo3\obj\Debug\DDS-2014-Grupo3.csproj.GenerateResource.Cache
+C:\Users\Usuario\Desktop\DDS 2014\Entrega 4 final ok Posta v1.0 Posta posta\4ta Entrega Final Posta V1.0\DDS-2014-Grupo3\obj\Debug\DDS-2014-Grupo4.exe
+C:\Users\Usuario\Desktop\DDS 2014\Entrega 4 final ok Posta v1.0 Posta posta\4ta Entrega Final Posta V1.0\DDS-2014-Grupo3\obj\Debug\DDS-2014-Grupo4.pdb
+C:\Users\Usuario\Desktop\DDS 2014\Entrega 6 OK\DDS-2014-Grupo3\obj\Debug\DDS-2014-Grupo4.pdb
+C:\Users\Provisoria\Documents\Facultad\Diseño de sistemas\Entrega 7\DDS-2014-master\Entrega 6 OK\DDS-2014-Grupo3\obj\Debug\DDS-2014-Grupo4.pdb
+C:\Users\Provisoria\Documents\Facultad\Diseño de sistemas\Entrega 7\DDS-2014-master\Entrega 6 OK\DDS-2014-Grupo3\obj\Debug\DDS-2014-Grupo3.csprojResolveAssemblyReference.cache
+C:\Users\Provisoria\Documents\Facultad\Diseño de sistemas\Entrega 7\DDS-2014-master\Entrega 6 OK\DDS-2014-Grupo3\obj\Debug\DDS_2014_Grupo4.Form1.resources
+C:\Users\Provisoria\Documents\Facultad\Diseño de sistemas\Entrega 7\DDS-2014-master\Entrega 6 OK\DDS-2014-Grupo3\obj\Debug\DDS_2014_Grupo4.Clases.Pantallitas.FGenerarEquipos.resources
+C:\Users\Provisoria\Documents\Facultad\Diseño de sistemas\Entrega 7\DDS-2014-master\Entrega 6 OK\DDS-2014-Grupo3\obj\Debug\DDS_2014_Grupo4.Clases.Pantallitas.Form2.resources
+C:\Users\Provisoria\Documents\Facultad\Diseño de sistemas\Entrega 7\DDS-2014-master\Entrega 6 OK\DDS-2014-Grupo3\obj\Debug\DDS_2014_Grupo4.Clases.Pantallitas.Form3.resources
+C:\Users\Provisoria\Documents\Facultad\Diseño de sistemas\Entrega 7\DDS-2014-master\Entrega 6 OK\DDS-2014-Grupo3\obj\Debug\DDS_2014_Grupo4.Clases.Pantallitas.Form4.resources
+C:\Users\Provisoria\Documents\Facultad\Diseño de sistemas\Entrega 7\DDS-2014-master\Entrega 6 OK\DDS-2014-Grupo3\obj\Debug\DDS_2014_Grupo4.Clases.Pantallitas.Form5.resources
+C:\Users\Provisoria\Documents\Facultad\Diseño de sistemas\Entrega 7\DDS-2014-master\Entrega 6 OK\DDS-2014-Grupo3\obj\Debug\DDS_2014_Grupo4.Properties.Resources.resources
+C:\Users\Provisoria\Documents\Facultad\Diseño de sistemas\Entrega 7\DDS-2014-master\Entrega 6 OK\DDS-2014-Grupo3\obj\Debug\DDS-2014-Grupo3.csproj.GenerateResource.Cache
+C:\Users\Provisoria\Documents\Facultad\Diseño de sistemas\Entrega 7\DDS-2014-master\Entrega 6 OK\DDS-2014-Grupo3\bin\Debug\DDS-2014-Grupo4.exe
+C:\Users\Provisoria\Documents\Facultad\Diseño de sistemas\Entrega 7\DDS-2014-master\Entrega 6 OK\DDS-2014-Grupo3\bin\Debug\DDS-2014-Grupo4.pdb
+C:\Users\Provisoria\Documents\Facultad\Diseño de sistemas\Entrega 7\DDS-2014-master\Entrega 6 OK\DDS-2014-Grupo3\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Provisoria\Documents\Facultad\Diseño de sistemas\Entrega 7\DDS-2014-master\Entrega 6 OK\DDS-2014-Grupo3\obj\Debug\DDS-2014-Grupo4.exe
+C:\Users\Provisoria\Documents\GitHub\DDS-2014\Entrega 6 OK\DDS-2014-Grupo3\obj\Debug\DDS-2014-Grupo4.exe
+C:\Users\Provisoria\Documents\GitHub\DDS-2014\Entrega 6 OK\DDS-2014-Grupo3\obj\Debug\DDS-2014-Grupo4.pdb
+C:\Users\Provisoria\Documents\GitHub\DDS-2014\Entrega 6 OK\DDS-2014-Grupo3\bin\Debug\DDS-2014-Grupo4.exe
+C:\Users\Provisoria\Documents\GitHub\DDS-2014\Entrega 6 OK\DDS-2014-Grupo3\bin\Debug\DDS-2014-Grupo4.pdb
+C:\Users\Provisoria\Documents\GitHub\DDS-2014\Entrega 6 OK\DDS-2014-Grupo3\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Provisoria\Documents\GitHub\DDS-2014\Entrega 6 OK\DDS-2014-Grupo3\obj\Debug\DDS-2014-Grupo3.csprojResolveAssemblyReference.cache
+C:\Users\Provisoria\Documents\GitHub\DDS-2014\Entrega 6 OK\DDS-2014-Grupo3\obj\Debug\DDS_2014_Grupo4.Form1.resources
+C:\Users\Provisoria\Documents\GitHub\DDS-2014\Entrega 6 OK\DDS-2014-Grupo3\obj\Debug\DDS_2014_Grupo4.Clases.Pantallitas.FGenerarEquipos.resources
+C:\Users\Provisoria\Documents\GitHub\DDS-2014\Entrega 6 OK\DDS-2014-Grupo3\obj\Debug\DDS_2014_Grupo4.Clases.Pantallitas.Form2.resources
+C:\Users\Provisoria\Documents\GitHub\DDS-2014\Entrega 6 OK\DDS-2014-Grupo3\obj\Debug\DDS_2014_Grupo4.Clases.Pantallitas.Form3.resources
+C:\Users\Provisoria\Documents\GitHub\DDS-2014\Entrega 6 OK\DDS-2014-Grupo3\obj\Debug\DDS_2014_Grupo4.Clases.Pantallitas.Form4.resources
+C:\Users\Provisoria\Documents\GitHub\DDS-2014\Entrega 6 OK\DDS-2014-Grupo3\obj\Debug\DDS_2014_Grupo4.Clases.Pantallitas.Form5.resources
+C:\Users\Provisoria\Documents\GitHub\DDS-2014\Entrega 6 OK\DDS-2014-Grupo3\obj\Debug\DDS_2014_Grupo4.Properties.Resources.resources
+C:\Users\Provisoria\Documents\GitHub\DDS-2014\Entrega 6 OK\DDS-2014-Grupo3\obj\Debug\DDS-2014-Grupo3.csproj.GenerateResource.Cache

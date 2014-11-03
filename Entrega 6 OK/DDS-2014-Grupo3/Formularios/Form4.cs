@@ -99,7 +99,10 @@ namespace DDS_2014_Grupo4.Clases.Pantallitas
             string ConnStr = @"Data Source=localhost\SQLSERVER2008;Initial Catalog=GD2C2014;User ID=gd;Password=gd2014;Trusted_Connection=False;";
 
             SqlConnection conn = new SqlConnection(ConnStr);
-            string sSel = string.Format("SELECT * FROM [GD2C2014].[dbo].[Jugador] j, [GD2C2014].[dbo].[Persona] p where j.ID_Jugador = '{0}' and j.ID_Persona = p.ID_Persona", id[listBox1.SelectedIndex]);
+            string sSel = string.Format(@"SELECT * FROM [GD2C2014].[dbo].[Jugador] j, 
+                [GD2C2014].[dbo].[Persona] p 
+                where j.ID_Jugador = '{0}' 
+                and j.ID_Persona = p.ID_Persona", id[listBox1.SelectedIndex]);
 
 
             SqlCommand cmd = new SqlCommand(sSel, conn);

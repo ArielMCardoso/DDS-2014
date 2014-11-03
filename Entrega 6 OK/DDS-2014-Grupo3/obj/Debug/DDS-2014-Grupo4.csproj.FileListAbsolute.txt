@@ -1,0 +1,81 @@
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\DDS-2014-Grupo4\DDS-2014-Grupo4\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\DDS-2014-Grupo4\DDS-2014-Grupo4\obj\Debug\DDS_2014_Grupo4.Properties.Resources.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\DDS-2014-Grupo4\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\DDS-2014-Grupo4\DDS-2014-Grupo4\bin\Debug\DDS-2014-Grupo4.exe
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\DDS-2014-Grupo4\DDS-2014-Grupo4\bin\Debug\DDS-2014-Grupo4.pdb
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\DDS-2014-Grupo4\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.exe
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\DDS-2014-Grupo4\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.pdb
+C:\Users\Provisoria\Documents\Facultad\Diseño de sistemas\DDS-2014-Grupo4\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.exe
+C:\Users\Provisoria\Documents\Facultad\Diseño de sistemas\DDS-2014-Grupo4\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.pdb
+C:\Users\Provisoria\Documents\Facultad\Diseño de sistemas\DDS-2014-Grupo4\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.csprojResolveAssemblyReference.cache
+C:\Users\Provisoria\Documents\Facultad\Diseño de sistemas\DDS-2014-Grupo4\DDS-2014-Grupo4\obj\Debug\DDS_2014_Grupo4.Admin.resources
+C:\Users\Provisoria\Documents\Facultad\Diseño de sistemas\DDS-2014-Grupo4\DDS-2014-Grupo4\obj\Debug\DDS_2014_Grupo4.Principal.resources
+C:\Users\Provisoria\Documents\Facultad\Diseño de sistemas\DDS-2014-Grupo4\DDS-2014-Grupo4\obj\Debug\DDS_2014_Grupo4.Properties.Resources.resources
+C:\Users\Provisoria\Documents\Facultad\Diseño de sistemas\DDS-2014-Grupo4\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.csproj.GenerateResource.Cache
+C:\Users\Provisoria\Documents\Facultad\Diseño de sistemas\DDS-2014-Grupo4\DDS-2014-Grupo4\obj\Debug\DDS_2014_Grupo4.Jugador.resources
+C:\Users\Usuario\Desktop\DDS-2014-Grupo4\DDS-2014-Grupo4\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.exe
+C:\Users\Usuario\Desktop\DDS-2014-Grupo4\DDS-2014-Grupo4\DDS-2014-Grupo4\bin\Debug\DDS-2014-Grupo4.exe
+C:\Users\Usuario\Desktop\DDS-2014-Grupo4\DDS-2014-Grupo4\DDS-2014-Grupo4\bin\Debug\DDS-2014-Grupo4.pdb
+C:\Users\Usuario\Desktop\DDS-2014-Grupo4\DDS-2014-Grupo4\DDS-2014-Grupo4\obj\Debug\DDS_2014_Grupo4.Properties.Resources.resources
+C:\Users\Usuario\Desktop\DDS-2014-Grupo4\DDS-2014-Grupo4\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.csproj.GenerateResource.Cache
+C:\Users\Usuario\Desktop\DDS-2014-Grupo4\DDS-2014-Grupo4\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.pdb
+C:\Users\Usuario\Desktop\DDS-2014-Grupo4\DDS-2014-Grupo4\DDS-2014-Grupo4\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Usuario\Desktop\DDS-2014-Grupo4\DDS-2014-Grupo4\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.csprojResolveAssemblyReference.cache
+C:\Users\Provisoria\Desktop\TP ROTO\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.exe
+C:\Users\Provisoria\Desktop\TP ROTO\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.pdb
+C:\Users\Provisoria\Desktop\TP ROTO\DDS-2014-Grupo4\bin\Debug\DDS-2014-Grupo4.exe
+C:\Users\Provisoria\Desktop\TP ROTO\DDS-2014-Grupo4\bin\Debug\DDS-2014-Grupo4.pdb
+C:\Users\Provisoria\Desktop\TP ROTO\DDS-2014-Grupo4\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Provisoria\Desktop\TP ROTO\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.csprojResolveAssemblyReference.cache
+C:\Users\Provisoria\Desktop\TP ROTO\DDS-2014-Grupo4\obj\Debug\DDS_2014_Grupo4.Properties.Resources.resources
+C:\Users\Provisoria\Desktop\TP ROTO\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.csproj.GenerateResource.Cache
+C:\Users\Usuario\Desktop\tp roto v2\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.exe
+C:\Users\Usuario\Desktop\tp roto v2\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.pdb
+C:\Users\Usuario\Desktop\tp roto v2\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\tp roto v2\DDS-2014-Grupo4\obj\Debug\DDS_2014_Grupo4.Properties.Resources.resources
+C:\Users\Usuario\Desktop\tp roto v2\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.csproj.GenerateResource.Cache
+C:\Users\Usuario\Desktop\tp roto v2\DDS-2014-Grupo4\bin\Debug\DDS-2014-Grupo4.exe
+C:\Users\Usuario\Desktop\tp roto v2\DDS-2014-Grupo4\bin\Debug\DDS-2014-Grupo4.pdb
+C:\Users\Usuario\Desktop\tp roto v2\DDS-2014-Grupo4\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Usuario\Desktop\DDS 2014\2da Entrega\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.exe
+C:\Users\Usuario\Desktop\DDS 2014\2da Entrega\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.pdb
+C:\Users\Usuario\Desktop\DDS 2014\2da Entrega\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\DDS 2014\2da Entrega\DDS-2014-Grupo4\obj\Debug\DDS_2014_Grupo4.Properties.Resources.resources
+C:\Users\Usuario\Desktop\DDS 2014\2da Entrega\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.csproj.GenerateResource.Cache
+C:\Users\Usuario\Desktop\DDS 2014\2da Entrega\DDS-2014-Grupo4\bin\Debug\DDS-2014-Grupo4.exe
+C:\Users\Usuario\Desktop\DDS 2014\2da Entrega\DDS-2014-Grupo4\bin\Debug\DDS-2014-Grupo4.pdb
+C:\Users\Usuario\Desktop\DDS 2014\2da Entrega\DDS-2014-Grupo4\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Usuario\Desktop\DDS 2014\3ra Entrega\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.exe
+C:\Users\Usuario\Desktop\DDS 2014\3ra Entrega\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.pdb
+C:\Users\Usuario\Desktop\DDS 2014\3ra Entrega Backup\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.exe
+C:\Users\Usuario\Desktop\DDS 2014\3ra Entrega Backup\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.pdb
+C:\Users\Usuario\Desktop\DDS 2014\3ra Entrega Backup\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\DDS 2014\3ra Entrega Backup\DDS-2014-Grupo4\obj\Debug\DDS_2014_Grupo4.Properties.Resources.resources
+C:\Users\Usuario\Desktop\DDS 2014\3ra Entrega Backup\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.csproj.GenerateResource.Cache
+C:\Users\Usuario\Desktop\DDS 2014\3ra Entrega Backup\DDS-2014-Grupo4\bin\Debug\DDS-2014-Grupo4.exe
+C:\Users\Usuario\Desktop\DDS 2014\3ra Entrega Backup\DDS-2014-Grupo4\bin\Debug\DDS-2014-Grupo4.pdb
+C:\Users\Usuario\Desktop\DDS 2014\3ra Entrega Backup\DDS-2014-Grupo4\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Usuario\Desktop\DDS 2014\3ra Entrega Backup 2\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.exe
+C:\Users\Usuario\Desktop\DDS 2014\3ra Entrega Backup 2\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.pdb
+C:\Users\Usuario\Desktop\DDS 2014\3ra Entrega Backup 2\DDS-2014-Grupo4\bin\Debug\DDS-2014-Grupo4.exe
+C:\Users\Usuario\Desktop\DDS 2014\3ra Entrega Backup 2\DDS-2014-Grupo4\bin\Debug\DDS-2014-Grupo4.pdb
+C:\Users\Usuario\Desktop\DDS 2014\3ra Entrega Backup 2\DDS-2014-Grupo4\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Usuario\Desktop\DDS 2014\3ra Entrega Backup 2\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\DDS 2014\3ra Entrega Backup 2\DDS-2014-Grupo4\obj\Debug\DDS_2014_Grupo4.Properties.Resources.resources
+C:\Users\Usuario\Desktop\DDS 2014\3ra Entrega Backup 2\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.csproj.GenerateResource.Cache
+C:\Users\Usuario\Desktop\DDS 2014\3ra Entrega final\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.exe
+C:\Users\Usuario\Desktop\DDS 2014\3ra Entrega final\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.pdb
+C:\Users\Usuario\Desktop\DDS 2014\3ra Entrega final\DDS-2014-Grupo4\bin\Debug\DDS-2014-Grupo4.exe
+C:\Users\Usuario\Desktop\DDS 2014\3ra Entrega final\DDS-2014-Grupo4\bin\Debug\DDS-2014-Grupo4.pdb
+C:\Users\Usuario\Desktop\DDS 2014\3ra Entrega final\DDS-2014-Grupo4\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Usuario\Desktop\DDS 2014\3ra Entrega final\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\DDS 2014\3ra Entrega final\DDS-2014-Grupo4\obj\Debug\DDS_2014_Grupo4.Properties.Resources.resources
+C:\Users\Usuario\Desktop\DDS 2014\3ra Entrega final\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.csproj.GenerateResource.Cache
+C:\Users\Usuario\Desktop\DDS 2014\4ta Entrega\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.pdb
+C:\Users\Usuario\Desktop\DDS 2014\4ta Entrega\DDS-2014-Grupo4\bin\Debug\DDS-2014-Grupo4.exe
+C:\Users\Usuario\Desktop\DDS 2014\4ta Entrega\DDS-2014-Grupo4\bin\Debug\DDS-2014-Grupo4.pdb
+C:\Users\Usuario\Desktop\DDS 2014\4ta Entrega\DDS-2014-Grupo4\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Usuario\Desktop\DDS 2014\4ta Entrega\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\DDS 2014\4ta Entrega\DDS-2014-Grupo4\obj\Debug\DDS_2014_Grupo4.Properties.Resources.resources
+C:\Users\Usuario\Desktop\DDS 2014\4ta Entrega\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.csproj.GenerateResource.Cache
+C:\Users\Usuario\Desktop\DDS 2014\4ta Entrega\DDS-2014-Grupo4\obj\Debug\DDS-2014-Grupo4.exe
