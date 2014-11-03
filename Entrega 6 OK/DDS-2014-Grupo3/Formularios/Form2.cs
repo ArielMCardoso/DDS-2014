@@ -148,5 +148,10 @@ namespace DDS_2014_Grupo4.Clases.Pantallitas
                 MessageBox.Show("Error, los equipos deben contener 5 jugadores cada uno");
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -112,5 +112,10 @@ namespace DDS_2014_Grupo4.Clases.Pantallitas
             f.Show();
             
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
