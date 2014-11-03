@@ -24,7 +24,8 @@ namespace DDS_2014_Grupo4.Clases.Pantallitas
             string ConnStr = @"Data Source=localhost\SQLSERVER2008;Initial Catalog=GD2C2014;User ID=gd;Password=gd2014;Trusted_Connection=False;";
 
             SqlConnection conn = new SqlConnection(ConnStr);
-            string sSel = string.Format("SELECT * FROM [GD2C2014].[dbo].[Partido]");
+            string sSel = string.Format(@"SELECT * FROM [GD2C2014].[dbo].[Partido] 
+                    where ID_Estado in (1, 2)");
 
 
             SqlCommand cmd = new SqlCommand(sSel, conn);
@@ -74,7 +75,7 @@ namespace DDS_2014_Grupo4.Clases.Pantallitas
             }
             LogicaNegocio.GenerarEquipo f = new LogicaNegocio.GenerarEquipo();
             partido = f.generar(comboBox1.Text,listBox1.SelectedIndex,listBox2.SelectedIndex);
-            new Form2(partido).Show();
+            new Form2(this, partido).Show();
         }
 
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
